@@ -30,6 +30,7 @@ class DateBetween implements Rule
         $lastDate = Carbon::now()->addWeek();
 
         return $value >= now() && $value <= $lastDate;
+        
     }
 
     /**
